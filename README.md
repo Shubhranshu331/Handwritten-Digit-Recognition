@@ -1,4 +1,5 @@
 **Handwritten Digit Recognition**
+
 Approach
 We have used Sequential Keras model which has two pairs of Convolution2D and MaxPooling2D layers. The MaxPooling layer acts as a sort of downsampling using max values in a region instead of averaging. After that we will use Flatten layer to convert multidimensional parameters to vector.
 
